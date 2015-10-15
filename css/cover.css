@@ -1,0 +1,15 @@
+.main .logo {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    margin-top: 150px;
+    z-index: 3;
+}
+.main .logo.cursive {
+    font-family: 'Grand Hotel',cursive;
+    font-size: 82px;
+    
+}
