@@ -4,7 +4,7 @@ weatherApp.config(function ($routeProvider) {
     $routeProvider
     
     .when('/', {
-        templateUrl: 'pages/home.htm',
+        templateUrl: 'pages/Angular.htm',
         controller: 'homeController'
     })
     
