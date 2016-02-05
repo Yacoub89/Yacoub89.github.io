@@ -43,7 +43,7 @@ border: 1px solid black !important;
     
     float:left;
     font-size: 26px;
-    font-family: "Myriad Pro";
+   
     padding-top: 100px;
  /*   padding-left: 152px;
     width:1000px;*/
@@ -70,7 +70,7 @@ p{
     width: 208px;
     height: 55px;
     font-size: 20px;
-    font-family: "Myriad Pro";
+    
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     border: none;
@@ -87,7 +87,7 @@ p{
     width: 208px;
     height: 55px;
     font-size: 20px;
-    font-family: "Myriad Pro";
+    
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     border: none;
@@ -103,7 +103,7 @@ p{
     width: 208px;
     height: 55px;
     font-size: 20px;
-    font-family: "Myriad Pro";
+    
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     border: none;
@@ -143,9 +143,9 @@ p{
 }
 .section_one_tittle{
     float: left;
-    padding-left: 12px;
+    padding-left: 22px;
     Font-size: 50px;
-    font-family: "Myriad Pro";
+   
     color: rgb(0, 160, 211);
     text-transform: uppercase;
        
@@ -155,7 +155,7 @@ p{
 }
 .section_one_right{
     float: left;
-    padding-left: 16px;
+   /* padding-left: 16px;*/
 }
 .section_one_right_top{
 float:left;
@@ -167,9 +167,8 @@ float:left;
 .section_one_text{
     float:left;
     font-size: 26px;
-    font-family: "Myriad Pro";
+   
     padding-top: 30px;
-    padding-left: 14px;
 }
 .slider{
     float:left;
@@ -205,7 +204,7 @@ float:left;
 
 .carousel-control.left{
     background-image: none !important;
-    padding-right: 92px !important;
+    padding-right:65px !important;
 }
 .carousel-control.right{
     background-image: none !important;
@@ -221,7 +220,7 @@ float:left;
     color: rgb(0, 160, 211);
     text-transform: uppercase;
     float:left; 
-    padding-left: 55px;
+    padding-left: 40px;
     padding-top: 50px;
     
 }
@@ -229,7 +228,7 @@ float:left;
     float: left;
     clear: both;
     padding-top: 20px;
-    padding-left: 55px;   
+    padding-left: 40px;   
 }
 .bottom_left{
     float:left;   
@@ -298,17 +297,14 @@ hr{
 }
 
 .section_two_right{
-float:left;
-    padding-left:23px;
+    float:left;
 }
 
 .section_three_right{
     float:left;
-    padding-left:23px;
 }
 .arrow_left_two{
     padding-top: 50px;
-    padding-left: 54px;
 }
 
 .sec_three_bottom_left{
@@ -321,7 +317,7 @@ float:left;
 }
 .bottom_left_img{
  float: left;
-padding-left: 53px;   
+padding-left: 40px;   
 }
 .sec_three_bottom{
     float:left;   
@@ -349,7 +345,7 @@ padding-left: 53px;
     width: 208px;
     height: 55px;
     font-size: 20px;
-    font-family: "Myriad Pro";
+   
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     border: none;
@@ -360,10 +356,15 @@ padding-left: 53px;
     float: left;
     padding-left: 50px;
 }
+.sec_three_buttom_right P{
+padding-left: 0 !important;
+}
 .sec_three_buttom_right_bottom{
     float: left;
-    padding-left: 50px;
-    width: 500px;
+    padding-left: 40px;
+    width: 50%;
+    clear: both;
+padding-top: 30px;
 }
 
 .sec_three_buttom_right ul{
@@ -408,12 +409,15 @@ padding-left: 53px;
     padding-top: 40px;
     
 }
+p{
+ padding-left: 39px;   
+}
 
 .section_two_tittle{
         float: left;
-    padding-left: 12px;
+    padding-left: 22px;
     Font-size: 50px;
-    font-family: "Myriad Pro";
+  
     color: rgb(217, 217, 217);
     text-transform: uppercase;
 }
