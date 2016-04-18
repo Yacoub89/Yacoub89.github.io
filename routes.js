@@ -4,18 +4,14 @@ profileApp.config(function ($routeProvider) {
     $routeProvider
     
     .when('/', {
-        templateUrl: 'pages/home.htm',
+        templateUrl: 'pages/home.html',
         controller: 'homeController'
     })
     
     .when('/about', {
-        templateUrl: 'pages/about.htm',
+        templateUrl: 'pages/about.html',
         controller: 'aboutController'
     })
     
-    .when('/forecast/:days', {
-        templateUrl: 'pages/forecast.htm',
-        controller: 'forecastController'
-    })
     
 });
