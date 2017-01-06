@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home-component';
 import {Routes, RouterModule} from "@angular/router";
 import {AppComponent} from "./app.component";
-import {ModuleWithProviders} from "@angular/core";
+
 
 
 
@@ -12,15 +12,15 @@ import {ModuleWithProviders} from "@angular/core";
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: 'Profile/home',
     pathMatch: 'full'
   },
   {
-    path: 'about',
+    path: 'Profile/about',
     component: AboutComponent
   },
   {
-    path: 'contact',
+    path: 'Profile/contact',
     component: ContactComponent
   },
   {
