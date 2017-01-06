@@ -12,24 +12,24 @@ import {ModuleWithProviders} from "@angular/core";
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'Profile/home',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
-    path: 'Profile/about',
+    path: '/about',
     component: AboutComponent
   },
   {
-    path: 'Profile/contact',
+    path: '/contact',
     component: ContactComponent
   },
   {
-    path: 'home',
+    path: '/home',
     component: HomeComponent
   }
   ,
   {
-    path: 'projects',
+    path: '/projects',
     component: ProjectsComponent
   }
 ];
