@@ -5,7 +5,7 @@ Git hub doe not host a SPA properly so I had ot hack it.
 Here is what i did:
 
 1) create a 404.html page and add this:
- -->
+ 
  <!doctype html>
 <!--<html>
   <head>
@@ -22,7 +22,7 @@ Here is what i did:
 </html>-->
 
 2) then in the index.html I added this in side the head tag
--->
+
 <!--<script>
   // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
   (function(){
