@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home-component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { ProjectsComponent } from './projects/projects.component';
     HomeComponent,
     NavbarComponent,
     AboutComponent,
-    ContactComponent,
     ProjectsComponent
   ],
   imports: [
