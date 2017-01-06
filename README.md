@@ -7,7 +7,7 @@ Here is what i did:
 1) create a 404.html page and add this:
  -->
  <!doctype html>
-<html>
+<!--<html>
   <head>
     <!-- This stores the URL the user was attempting to go to in sessionStorage,
     and then redirects all 404 responses to the app’s index.html page -->
@@ -19,11 +19,11 @@ Here is what i did:
   </head>
   <body>
   </body>
-</html>
+</html>-->
 
 2) then in the index.html I added this in side the head tag
 -->
-<script>
+<!--<script>
   // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
   (function(){
     var redirect = sessionStorage.redirect;
@@ -32,7 +32,7 @@ Here is what i did:
       history.replaceState(null, null, redirect);
     }
   })();
-</script>
+</script>-->
 
 Source:
 http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
