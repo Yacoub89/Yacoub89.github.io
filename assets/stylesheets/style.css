@@ -1,3 +1,9 @@
 .navbar-nav > li > a [class^="fa"] {
     font-size: 22px;
 }
+.padding-left-about{
+    padding-left: 18px;
+}
+.padding-left-home{
+    padding-left: 40px;
+}
