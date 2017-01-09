@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ProfileWebsite</title>
+  <base href="/">
+  <link rel="stylesheet" href="assets/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+  <!-- Fonts -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<script>
+  // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+
+<link href="styles.9f852e7d65ff6009e376.bundle.css" rel="stylesheet"></head>
+
+<body>
+  <app-root></app-root>
+<script type="text/javascript" src="inline.33ccca354a1ee7e19aae.bundle.js"></script><script type="text/javascript" src="vendor.e7c4a4a2bad4f174d713.bundle.js"></script><script type="text/javascript" src="main.89b48d38e30d398aa565.bundle.js"></script></body>
+
+</html>
